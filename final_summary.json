@@ -1,0 +1,27 @@
+{
+  "dataset": "Cho2017",
+  "subjects": 52,
+  "channels_full": 64,
+  "task": "left_vs_right_motor_imagery",
+  "split": {
+    "train": 36,
+    "validation": 8,
+    "test": 8
+  },
+  "selected_k": 16,
+  "selection_rule": "smallest budget retaining >=90% of full validation kappa",
+  "validation": {
+    "k16_mean_kappa": 0.2285,
+    "k64_mean_kappa": 0.2493,
+    "retention": 0.917
+  },
+  "test": {
+    "k16_mean_kappa": 0.2587806,
+    "k16_std_kappa": 0.0140831,
+    "k16_mean_accuracy": 0.629302,
+    "k64_mean_kappa": 0.3241464,
+    "k64_std_kappa": 0.0164954,
+    "k64_mean_accuracy": 0.6620732,
+    "retention": 0.7983448
+  }
+}

@@ -1,0 +1,3 @@
+Dataset,Condition,Channels,Validation kappa,Test kappa mean,Test kappa std,Test accuracy mean,Retention vs 64ch
+Cho2017,Ranked reduced montage,16,0.2285,0.2587806,0.0140831,0.629302,0.7983448
+Cho2017,Full montage,64,0.2493,0.3241464,0.0164954,0.6620732,1.0
